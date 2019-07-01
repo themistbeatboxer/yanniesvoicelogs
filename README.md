@@ -1,2 +1,0 @@
-# yanniesvoicelogs
-yans voice logs
