@@ -1,6 +1,6 @@
 body
 {
-	background-image: url(back_1_20.png);
+	background-image: url(../images/back_1_20.png);
 }
 #logoHolder
 {
@@ -19,4 +19,18 @@ body
 	position: absolute;
 	left: 43px;
 	top: 47.5px;
+}
+#loginHolder
+{
+	background-color: #B2FF66;
+	width: 800px;
+	height: 380px;
+	border-radius:5%;
+	position: relative;
+	margin: auto;
+	top: 15%;
+}
+#loginText
+{
+	font-size: 20px;
 }
