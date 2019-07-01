@@ -1,3 +1,8 @@
+@font-face
+{
+	font-family: main;
+	src: url(../fonts/main.ttf);
+}
 body
 {
 	background-image: url(../images/back_1_20.png);
@@ -29,8 +34,78 @@ body
 	position: relative;
 	margin: auto;
 	top: 15%;
+	text-align: center;
+}
+#login
+{
+	position: absolute;
+	width: 60%;
+	height: 370px;
 }
 #loginText
 {
+	font-size: 60px;
+	color: #DB7093;
+	font-family: main;
+}
+.formText
+{
+	font-size: 30px;
+	color: #DB7093;
+	font-family: main;
+}
+.inputField
+{
+	border: 2px solid #DB7093;
+	border-radius: 4px;
+	height: 24px;
+}
+#submit
+{
+	color: #DB7093;
 	font-size: 20px;
+}
+#border
+{
+	position: absolute;
+	left: 60%;
+	top: 20px;
+	width: 1px;
+	height: 340px;
+	border: 2px solid #DB7093;
+}
+#third
+{
+	position: absolute;
+	left: 65%;
+	width: 30%;
+	height: 380px;
+}
+#introText
+{
+	position: absolute;
+	top: 10%;
+	left: 5%;
+	width: 90%; 
+	font-family: main;
+	color: #DB7093;
+	font-size: 18px;
+}
+#butt
+{
+	position: absolute;
+	top: 72%;
+	margin: auto;
+	left: 42%; 
+	display: block;
+}
+#clickMe
+{
+	width: 80%;
+	font-family: main;
+	color: #DB7093;
+	font-size: 14px;
+	position: absolute;
+	top: 85%;
+	left: 10%;
 }
