@@ -1,8 +1,4 @@
-@font-face
-{
-	font-family: main;
-	src: url(http://download1139.mediafire.com/u2li083lvxbg/3h9f2fng86h3nfh/main.TTF);
-}
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
 body
 {
 	background-image: url(../images/back_1_20.png);
@@ -46,13 +42,15 @@ body
 {
 	font-size: 60px;
 	color: #DB7093;
-	font-family: main;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
 }
 .formText
 {
 	font-size: 30px;
 	color: #DB7093;
-	font-family: main;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bold;
 }
 .inputField
 {
@@ -87,9 +85,10 @@ body
 	top: 10%;
 	left: 5%;
 	width: 90%; 
-	font-family: main;
+	font-family: 'Amatic SC', cursive;
 	color: #DB7093;
-	font-size: 18px;
+	font-size: 24px;
+	font-weight: bold;
 }
 #butt
 {
@@ -102,10 +101,11 @@ body
 #clickMe
 {
 	width: 80%;
-	font-family: main;
+	font-family: 'Amatic SC', cursive;
 	color: #DB7093;
-	font-size: 14px;
+	font-size: 20px;
 	position: absolute;
 	top: 85%;
 	left: 10%;
+	font-weight: bold;
 }
