@@ -15,7 +15,7 @@ function playAudio(filePath)
 {
 	if(isPlaying)
 		return;
-	var audio = new Audio("audio/" + filePath + ".aac");
+	var audio = new Audio(filePath + ".aac");
 	audio.play();
 	isPlaying = true;
 	audio.onended = function() {isPlaying = false;}
