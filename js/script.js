@@ -11,6 +11,10 @@ function login()
 		alert("INCORRECT USERNAME AND/OR PASSWORD");
 	}
 }
+function letter()
+{
+	window.location.href = "grid.html";
+}
 function playAudio(filePath)
 {
 	if(isPlaying)
