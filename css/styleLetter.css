@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+body
+{
+	background-image: url(../images/back_1_20.png);
+}
+#logoHolder
+{
+	text-align: center;
+	margin: auto;
+	position: relative;
+	top: 12.5%;
+	background-color: #B2FF66;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+}
+#logo
+{
+	display: block;
+	position: absolute;
+	left: 43px;
+	top: 47.5px;
+}
+#letterHolder
+{
+	background-color: #B2FF66;
+	width: 800px;
+	height: 380px;
+	border-radius:5%;
+	position: relative;
+	margin: auto;
+	top: 15%;
+	text-align: center;
+}
+#letter
+{
+	text-align: center;
+	position: absolute;
+	color: #DB7093;
+	font-family: 'Amatic SC', cursive;
+	font-weight: bolder;
+	font-size: 35px;
+	top: 10%;
+}
+#butt
+{
+	position: relative;
+	top: 80%;
+}

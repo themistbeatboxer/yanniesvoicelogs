@@ -61,7 +61,8 @@ body
 #submit
 {
 	color: #DB7093;
-	font-size: 20px;
+	font-size: 16px;
+	border-radius: 15%;
 }
 #border
 {
